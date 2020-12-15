@@ -7,3 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 User.create(email: 'foo@bar', password: 'bar')
+
+Todo.create(name: 'buy milk', user_id: 1)
+Todo.create(name: 'buy eggs', user_id: 1)
+Todo.create(name: 'buy NYUTHIN', user_id: 1)
